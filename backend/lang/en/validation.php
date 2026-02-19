@@ -1,0 +1,65 @@
+<?php
+
+return [
+    'accepted' => 'The :attribute field must be accepted.',
+    'active_url' => 'The :attribute field must be a valid URL.',
+    'after' => 'The :attribute field must be a date after :date.',
+    'alpha' => 'The :attribute field must only contain letters.',
+    'alpha_dash' => 'The :attribute field must only contain letters, numbers, dashes and underscores.',
+    'alpha_num' => 'The :attribute field must only contain letters and numbers.',
+    'array' => 'The :attribute field must be an array.',
+    'before' => 'The :attribute field must be a date before :date.',
+    'between' => [
+        'numeric' => 'The :attribute field must be between :min and :max.',
+        'file' => 'The :attribute field must be between :min and :max kilobytes.',
+        'string' => 'The :attribute field must be between :min and :max characters.',
+        'array' => 'The :attribute field must have between :min and :max items.',
+    ],
+    'boolean' => 'The :attribute field must be true or false.',
+    'confirmed' => 'The :attribute field confirmation does not match.',
+    'date' => 'The :attribute field must be a valid date.',
+    'email' => 'The :attribute field must be a valid email address.',
+    'exists' => 'The selected :attribute is invalid.',
+    'file' => 'The :attribute field must be a file.',
+    'filled' => 'The :attribute field must have a value.',
+    'image' => 'The :attribute field must be an image.',
+    'in' => 'The selected :attribute is invalid.',
+    'integer' => 'The :attribute field must be an integer.',
+    'ip' => 'The :attribute field must be a valid IP address.',
+    'json' => 'The :attribute field must be a valid JSON string.',
+    'max' => [
+        'numeric' => 'The :attribute field must not be greater than :max.',
+        'file' => 'The :attribute field must not be greater than :max kilobytes.',
+        'string' => 'The :attribute field must not be greater than :max characters.',
+        'array' => 'The :attribute field must not have more than :max items.',
+    ],
+    'min' => [
+        'numeric' => 'The :attribute field must be at least :min.',
+        'file' => 'The :attribute field must be at least :min kilobytes.',
+        'string' => 'The :attribute field must be at least :min characters.',
+        'array' => 'The :attribute field must have at least :min items.',
+    ],
+    'not_in' => 'The selected :attribute is invalid.',
+    'numeric' => 'The :attribute field must be a number.',
+    'present' => 'The :attribute field must be present.',
+    'regex' => 'The :attribute field format is invalid.',
+    'required' => 'The :attribute field is required.',
+    'same' => 'The :attribute and :other fields must match.',
+    'size' => [
+        'numeric' => 'The :attribute field must be :size.',
+        'file' => 'The :attribute field must be :size kilobytes.',
+        'string' => 'The :attribute field must be :size characters.',
+        'array' => 'The :attribute field must contain :size items.',
+    ],
+    'string' => 'The :attribute field must be a string.',
+    'unique' => 'The :attribute has already been taken.',
+    'url' => 'The :attribute field must be a valid URL.',
+
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'custom-message',
+        ],
+    ],
+
+    'attributes' => [],
+];

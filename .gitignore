@@ -1,0 +1,14 @@
+/node_modules
+/dist
+/.env
+/.env.local
+/.env.*.local
+
+# Laravel
+/vendor/
+/.idea
+/.vscode
+/storage/*.key
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/

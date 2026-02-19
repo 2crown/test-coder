@@ -1,0 +1,315 @@
+[2026-02-18 05:34:58] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 05:36:54] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 05:37:23] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 05:38:57] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 05:39:04] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 05:48:43] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(196): App/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): App/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 05:51:17] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(196): App/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): App/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 06:11:57] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(196): App/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): App/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 06:12:20] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(196): App/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): App/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 06:12:51] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/app/Console/Kernel.php(196): App/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): App/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:33:51] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:36:31] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:39:20] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:40:42] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:46:27] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:50:28] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 10:59:51] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 11:03:27] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 11:07:49] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 11:09:12] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
+[2026-02-18 11:12:38] production.ERROR: Facade does not implement getFacadeAccessor method. {"exception":"[object] (RuntimeException(code: 0): Facade does not implement getFacadeAccessor method. at C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:223)
+[stacktrace]
+#0 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate/Support/Facades/Facade::getFacadeAccessor()
+#1 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(357): Illuminate/Support/Facades/Facade::getFacadeRoot()
+#2 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/config/session.php(17): Illuminate/Support/Facades/Facade::__callStatic('getApplication', Array)
+#3 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require('C://Users//Ademol...')
+#4 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate/Foundation/Bootstrap/LoadConfiguration->Illuminate/Foundation/Bootstrap/{closure}()
+#5 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFile(Object(Illuminate/Config/Repository), 'session', 'C://Users//Ademol...', Array)
+#6 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate/Foundation/Bootstrap/LoadConfiguration->loadConfigurationFiles(Object(Illuminate/Foundation/Application), Object(Illuminate/Config/Repository))
+#7 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate/Foundation/Bootstrap/LoadConfiguration->bootstrap(Object(Illuminate/Foundation/Application))
+#8 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate/Foundation/Application->bootstrapWith(Array)
+#9 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate/Foundation/Console/Kernel->bootstrap()
+#10 C:/Users/AdemolaAdeniji/Desktop/test-coder/backend/artisan(12): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 {main}
+"} 
