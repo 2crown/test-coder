@@ -8,10 +8,11 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
+use Symfony\Component\HttpFoundation\JsonResponse;
 
 class UserController extends Controller
 {
-    public function index(Request $request)
+    public function index(Request $request): JsonResponse
     {
         $users = User::with(['roles', 'student', 'teacher', 'parent'])
             ->when($request->role, function ($query, $role) {

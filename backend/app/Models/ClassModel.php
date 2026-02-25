@@ -9,6 +9,8 @@ class ClassModel extends Model
 {
     use HasFactory;
 
+    protected $table = 'classes'; // This tells Laravel to use the 'classes' table
+
     protected $fillable = [
         'name',
         'level',

@@ -37,7 +37,7 @@ function ProtectedRoute({ children, allowedRoles }) {
     }
   }
 
-  return children
+  return (<div className="">{children}</div>)
 }
 
 function App() {
@@ -74,7 +74,7 @@ function App() {
           </ProtectedRoute>
         }>
           <Route index element={<TeacherDashboard />} />
-          <Route path="assessments" element={<TeacherAssessments />} />
+          <Route path="/teacher/assessments" element={<TeacherAssessments />} />
         </Route>
 
         <Route path="/student" element={

@@ -11,7 +11,9 @@ import {clearError, register } from '../../store/authSlice'
 
 export default function Register() {
   const [formData, setFormData] = useState({
-    name: '',
+    first_name: '',
+    middle_name: '',
+    last_name: '',
     email: '',
     password: '',
     password_confirmation: '',
@@ -69,12 +71,34 @@ export default function Register() {
               </div>
             )}
             <div className="space-y-2">
-              <Label htmlFor="name">Full Name</Label>
+              <Label htmlFor="name">First Name</Label>
               <Input
-                id="name"
-                name="name"
-                placeholder="Enter your full name"
-                value={formData.name}
+                id="first_name"
+                name="first_name"
+                placeholder="Enter your first name"
+                value={formData.first_name}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="name">Middle Name</Label>
+              <Input
+                id="middle_name"
+                name="middle_name"
+                placeholder="Enter your middle name"
+                value={formData.middle_name}
+                onChange={handleChange}
+              
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="name">Last Name</Label>
+              <Input
+                id="last_name"
+                name="last_name"
+                placeholder="Enter your last name"
+                value={formData.last_name}
                 onChange={handleChange}
                 required
               />

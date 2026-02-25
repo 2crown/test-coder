@@ -6,6 +6,7 @@ export const login = createAsyncThunk('auth/login', async (credentials, { reject
   try {
     const response = await api.post('/auth/login', credentials)
     localStorage.setItem('token', response.data.token)
+    console.log(response.data)
     return response.data
   } catch (error) {
     return rejectWithValue(error.response?.data?.message || 'Login failed')
@@ -92,6 +93,7 @@ const authSlice = createSlice({
         state.loading = true
       })
       .addCase(fetchUser.fulfilled, (state, action) => {
+        console.log('Fetched user:', action.payload)
         state.loading = false
         state.isAuthenticated = true
         state.user = action.payload.user

@@ -14,6 +14,7 @@ return new class extends Migration
             $table->foreignId('subject_id')->constrained('subjects')->onDelete('cascade');
             $table->foreignId('assessment_id')->nullable()->constrained('assessments')->onDelete('set null');
             $table->foreignId('term_id')->nullable()->constrained('terms')->onDelete('set null');
+            $table->foreignId('academic_session_id')->nullable()->constrained('academic_sessions')->onDelete('set null');
             $table->decimal('marks', 5, 2);
             $table->string('grade')->nullable();
             $table->boolean('published')->default(false);
