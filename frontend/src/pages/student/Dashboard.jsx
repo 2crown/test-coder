@@ -27,7 +27,7 @@ export default function StudentDashboard() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold">Student Dashboard</h1>
+        <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">Student Dashboard</h1>
         <p className="text-muted-foreground">Welcome back, {data?.student?.user?.name}!</p>
       </div>
 

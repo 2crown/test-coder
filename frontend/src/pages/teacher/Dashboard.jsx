@@ -26,7 +26,7 @@ export default function TeacherDashboard() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold">Teacher Dashboard</h1>
+        <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">Teacher Dashboard</h1>
         <p className="text-muted-foreground">Welcome back, {data?.teacher?.user?.name}!</p>
       </div>
 

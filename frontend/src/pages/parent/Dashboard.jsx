@@ -32,7 +32,7 @@ export default function ParentDashboard() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold">Parent Dashboard</h1>
+        <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">Parent Dashboard</h1>
         <p className="text-muted-foreground">Monitor your children&apos;s academic progress</p>
       </div>
 

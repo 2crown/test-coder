@@ -60,7 +60,7 @@ export default function AdminSubjects() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold">Subject Management</h1>
+          <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">Subject Management</h1>
           <p className="text-muted-foreground">Manage subjects</p>
         </div>
         <Button onClick={() => setShowForm(!showForm)}>{showForm ? 'Cancel' : 'Add Subject'}</Button>

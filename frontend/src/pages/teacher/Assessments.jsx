@@ -65,7 +65,7 @@ export default function TeacherAssessments() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold">Assessments</h1>
+          <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">Assessments</h1>
           <p className="text-muted-foreground">Create and manage assignments, tests, and exams</p>
         </div>
         <Button onClick={() => setShowForm(!showForm)}>{showForm ? 'Cancel' : 'Create Assessment'}</Button>

@@ -1,43 +1,64 @@
-import { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { useDispatch, useSelector } from 'react-redux'
-import { login, clearError } from '../../store/authSlice'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { School } from 'lucide-react'
+import { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { login, clearError } from "../../store/authSlice";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { School } from "lucide-react";
 
 export default function Login() {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const dispatch = useDispatch()
-  const navigate = useNavigate()
-  const { loading, error, isAuthenticated, user } = useSelector((state) => state.auth)
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const { loading, error, isAuthenticated, user } = useSelector(
+    (state) => state.auth,
+  );
 
   useEffect(() => {
+    console.log("🔑 Login page - isAuthenticated:", isAuthenticated);
     if (isAuthenticated && user) {
-      const role = user.roles?.[0]?.name
+      const role = user.roles?.[0];
+      console.log("🔑 Already authenticated, redirecting based on role");
+
       switch (role) {
-        case 'admin': navigate('/'); break
-        case 'teacher': navigate('/teacher'); break
-        case 'student': navigate('/student'); break
-        case 'parent': navigate('/parent'); break
-        default: navigate('/');
+        case "admin":
+          navigate("/admin", { replace: true });
+          break;
+        case "teacher":
+          navigate("/teacher", { replace: true });
+          break;
+        case "student":
+          navigate("/student", { replace: true });
+          break;
+        case "parent":
+          navigate("/parent", { replace: true });
+          break;
+        default:
+          navigate("/", { replace: true });
       }
     }
-  }, [isAuthenticated, user, navigate])
+  }, [isAuthenticated, user, navigate]);
 
   useEffect(() => {
     return () => {
-      dispatch(clearError())
-    }
-  }, [dispatch])
+      dispatch(clearError());
+    };
+  }, [dispatch]);
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    dispatch(login({ email, password }))
-  }
+    e.preventDefault();
+    dispatch(login({ email, password }));
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
@@ -83,10 +104,10 @@ export default function Login() {
           </CardContent>
           <CardFooter className="flex flex-col space-y-4">
             <Button type="submit" className="w-full" disabled={loading}>
-              {loading ? 'Signing in...' : 'Sign In'}
+              {loading ? "Signing in..." : "Sign In"}
             </Button>
             <p className="text-sm text-center text-muted-foreground">
-              Don&apos;t have an account?{' '}
+              Don&apos;t have an account?{" "}
               <Link to="/register" className="text-primary hover:underline">
                 Register
               </Link>
@@ -95,5 +116,5 @@ export default function Login() {
         </form>
       </Card>
     </div>
-  )
+  );
 }

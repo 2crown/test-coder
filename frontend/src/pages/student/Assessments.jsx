@@ -52,7 +52,7 @@ export default function StudentAssessments() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold">My Assessments</h1>
+        <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">My Assessments</h1>
         <p className="text-muted-foreground">View and take your assignments, tests, and exams</p>
       </div>
 

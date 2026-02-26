@@ -51,7 +51,10 @@ export default function Layout() {
   const location = useLocation()
   const { user } = useSelector((state) => state.auth)
 
-  const userRole = user?.roles?.[0]?.name
+  console.log('Layout rendering - User:', user)
+  console.log('Layout rendering - Location:', location.pathname)
+
+  const userRole = user?.roles?.[0]
 
   const getLinks = () => {
     switch (userRole) {
@@ -88,7 +91,7 @@ export default function Layout() {
           {/* Logo */}
           <div className="flex items-center gap-2 px-6 py-4 border-b">
             <School className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold">SchoolHub</span>
+            <span className="text-xl font-bold">DWISS</span>
           </div>
 
           {/* Navigation */}
@@ -139,6 +142,8 @@ export default function Layout() {
         <div className="p-6 lg:p-8">
           <Outlet />
         </div>
+         {/* Add fallback if Outlet doesn't render */}
+  {!location.pathname.includes('/login') && <div>No content rendered</div>}
       </main>
 
       {/* Overlay for mobile */}

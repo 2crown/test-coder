@@ -58,7 +58,7 @@ export default function StudentResults() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold">My Results</h1>
+        <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">My Results</h1>
         <p className="text-muted-foreground">View your test, assignment, and exam results</p>
       </div>
 

@@ -57,7 +57,7 @@ export default function AdminUsers() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold">User Management</h1>
+          <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">User Management</h1>
           <p className="text-muted-foreground">Manage all system users</p>
         </div>
         <Button onClick={() => setShowForm(!showForm)}>

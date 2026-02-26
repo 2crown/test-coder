@@ -52,7 +52,7 @@ export default function AdminClasses() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold">Class Management</h1>
+          <h1 className="text-3xl font-bold pl-[3rem] lg:pl-0">Class Management</h1>
           <p className="text-muted-foreground">Manage classes and grades</p>
         </div>
         <Button onClick={() => setShowForm(!showForm)}>{showForm ? 'Cancel' : 'Add Class'}</Button>
