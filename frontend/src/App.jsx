@@ -107,7 +107,7 @@ function App() {
         />
 
         <Route
-          path="/admin"
+          path="/"
           element={
             <ProtectedRoute allowedRoles={["admin"]}>
               <Layout />
@@ -115,10 +115,10 @@ function App() {
           }
         >
           <Route index element={<AdminDashboard />} />
-          <Route path="users" element={<AdminUsers />} />
-          <Route path="classes" element={<AdminClasses />} />
-          <Route path="subjects" element={<AdminSubjects />} />
-          <Route path="sessions" element={<AdminSessions />} />
+          <Route path="/admin/users" element={<AdminUsers />} />
+          <Route path="/admin/classes" element={<AdminClasses />} />
+          <Route path="/admin/subjects" element={<AdminSubjects />} />
+          <Route path="/admin/sessions" element={<AdminSessions />} />
         </Route>
 
         <Route
